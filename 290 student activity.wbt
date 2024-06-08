@@ -1,0 +1,153 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/conveyors/protos/ConveyorBelt.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/OsbWood.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/devices/robotiq/protos/Robotiq3fGripper.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/universal_robots/protos/UR5e.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/MetalStorageBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0943999999999994
+  position 1.3599022017726836 0.09931064627838425 3.2994289589404957
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 6 3
+  floorAppearance OsbWood {
+  }
+}
+WoodenBox {
+  translation 1.5 -0.4 0.3
+}
+UR5e {
+  hidden position_0_0 1.569997665423056
+  hidden rotation_1 0 0 1 1.5699976654230559
+  hidden position_1_0 0.15007348621896496
+  hidden linearVelocity_1 -1.2432251461819835e-08 1.1949868343037976e-06 1.4156283599091496e-06
+  hidden angularVelocity_1 9.947454499850142e-07 1.2923903159110739e-07 2.6682122463366003e-05
+  hidden rotation_2 0 1 0 1.7208694862189637
+  hidden position_2_0 -0.09997426452971486
+  hidden linearVelocity_2 -4.3112726437117445e-06 -1.572159252236129e-05 1.4326063885209917e-06
+  hidden angularVelocity_2 -7.24950284233057e-06 -1.219860072314023e-06 2.648971523988868e-05
+  hidden rotation_3 0 -1 0 0.09997426452971273
+  hidden position_3_0 -0.03999987845310349
+  hidden linearVelocity_3 -1.8826559204485925e-05 -2.6726644268077484e-05 2.320338086579361e-06
+  hidden angularVelocity_3 8.861617644406791e-06 -5.620857812597412e-07 2.6147812398627427e-05
+  hidden rotation_4 0 1 0 1.5307961215468957
+  hidden position_4_0 -6.608018460050629e-06
+  hidden linearVelocity_4 -2.493650338656183e-05 -3.808316102559689e-05 5.150038126007718e-06
+  hidden angularVelocity_4 7.2814256850222915e-06 -2.0828154193449181e-07 2.5973966258561994e-05
+  hidden rotation_5 0 0 -1 6.607988774790479e-06
+  hidden position_5_0 -6.2936400604223495e-06
+  hidden linearVelocity_5 -2.475348012253159e-05 -3.740968144732763e-05 6.443525144147072e-06
+  hidden angularVelocity_5 7.317587872313072e-06 4.996795535223029e-07 9.111707515034018e-05
+  hidden rotation_6 0 -1 0 6.293654978102881e-06
+  hidden linearVelocity_6 -2.2627236290714516e-05 -4.942845860323647e-05 6.939381738969355e-06
+  hidden angularVelocity_6 7.263772926141204e-05 5.138459828168489e-07 9.100169354441833e-05
+  hidden position_7_0 0.17000321577847322
+  hidden position_7_1 0.17000393746393286
+  hidden position_7_2 0.04999999877913596
+  hidden rotation_8 0.7055462612139562 0.7061090569904442 0.06012048671686911 3.261783796836009
+  hidden position_8_0 0.05000399207649148
+  hidden linearVelocity_8 0.00020504069968332408 -5.6923395409405275e-05 6.635942787390026e-05
+  hidden angularVelocity_8 7.212333934654364e-05 3.0216311039425034e-05 9.294113281255268e-05
+  hidden rotation_9 0 0 1 0.0005039920766256791
+  hidden position_9_0 -2.901091113073309e-08
+  hidden linearVelocity_9 0.000436808857066073 -6.369634937746001e-05 0.00012282654871300475
+  hidden angularVelocity_9 7.171733693792666e-05 3.011508870254856e-05 9.429355544315028e-05
+  hidden rotation_10 0 0 -1 0.520000029010911
+  hidden position_10_0 -0.060000000000008887
+  hidden linearVelocity_10 0.0004344883416860579 -6.8826016571877e-05 0.00012642500944416935
+  hidden angularVelocity_10 7.17695792788659e-05 3.011213294067465e-05 9.39901172410255e-05
+  hidden rotation_11 0 0 -1 0.007699999999948384
+  hidden linearVelocity_11 0.00043287499599396035 -7.230234532004074e-05 0.00012887951897154603
+  hidden angularVelocity_11 7.176957948708493e-05 3.011213290031424e-05 9.399011704872034e-05
+  hidden rotation_12 0.7055462503345793 0.7061090461058628 0.060120742229978076 3.2617843064242575
+  hidden position_12_0 0.05000396874696168
+  hidden linearVelocity_12 0.00021093483761681846 -6.231847454842612e-05 4.435417097941295e-05
+  hidden angularVelocity_12 7.233614068293077e-05 4.4325390048033646e-05 9.285127245529958e-05
+  hidden rotation_13 0 0 1 0.0005039687469371246
+  hidden position_13_0 -2.902362239228586e-08
+  hidden linearVelocity_13 0.0004485555804954114 -6.939952662292907e-05 7.958404558634134e-05
+  hidden angularVelocity_13 7.211204992585703e-05 4.4259923735996044e-05 9.431428457438431e-05
+  hidden rotation_14 0 0 -1 0.5200000290236224
+  hidden position_14_0 -0.06000000000002821
+  hidden linearVelocity_14 0.00044611061544267577 -7.452756720018608e-05 8.389021023909451e-05
+  hidden angularVelocity_14 7.216426092250555e-05 4.425697101165467e-05 9.401103447780721e-05
+  hidden rotation_15 0 0 -0.9999999999999999 0.007699999999948384
+  hidden linearVelocity_15 0.000444412984958411 -7.800245041502073e-05 8.682392206601999e-05
+  hidden angularVelocity_15 7.216426100585779e-05 4.425697135476753e-05 9.401103424813058e-05
+  hidden rotation_16 0 0 1 0.0004999987785358837
+  hidden position_16_0 -3.098210100430647e-08
+  hidden linearVelocity_16 -1.7081214542388407e-05 -5.432409975370428e-05 3.7654928745196776e-06
+  hidden angularVelocity_16 7.263683113537806e-05 5.152090237735403e-07 9.097792943156923e-05
+  hidden rotation_17 0 0 -1 0.5200000308128697
+  hidden position_17_0 -0.05999999999997583
+  hidden linearVelocity_17 -1.3451565947663024e-05 -5.8648900927601807e-05 1.824407785395076e-06
+  hidden angularVelocity_17 7.263667886049039e-05 5.185970055276668e-07 9.128729379486719e-05
+  hidden rotation_18 0 0 -1 0.007699999999948384
+  hidden linearVelocity_18 -1.0949500510326191e-05 -6.158135977611502e-05 4.6805131203825646e-07
+  hidden angularVelocity_18 7.263667913090238e-05 5.185969021483684e-07 9.128729368185123e-05
+  translation 1.5 -0.4 0.6
+  controller "my_controller290"
+  toolSlot [
+    Robotiq3fGripper {
+    }
+    DistanceSensor {
+      translation 0 0.095 0.04
+      rotation 0 0 1 1.5707996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+    }
+  ]
+}
+ConveyorBelt {
+  hidden translation_1 -4.6363869332118116e-05 -3.121875470757374e-05 0.37490679992702336
+  hidden rotation_1 0.029475966338857584 0.8802467622584106 -0.47359983629851 6.601188615136986e-05
+  translation 0 0.4 0
+  size 5 0.5 0.5
+}
+Solid {
+  translation 2.117551230138095 -0.5590262670583934 0.05360746331032273
+  rotation -0.03590783471806224 -0.9993551057576832 -1.3821298062162363e-06 -3.1415922486869867
+  children [
+    DEF red_box Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  boundingObject USE red_box
+  physics Physics {
+  }
+  linearVelocity 1.9570282228924662e-07 1.067233371906336e-06 1.0705104343675989e-06
+  angularVelocity -2.134425295862244e-05 3.9139804414777704e-06 1.2382343080430767e-16
+}
+MetalStorageBox {
+  translation 2.4 -0.4 0
+  rotation 0 0 1 1.57
+}
